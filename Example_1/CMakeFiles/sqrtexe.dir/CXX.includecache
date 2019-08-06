@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kk/Github/CPP_GTest/Example_1/sqrt_test.cpp
+square_root.cpp
+/home/kk/Github/CPP_GTest/Example_1/square_root.cpp
+gtest/gtest.h
+-
+
+/home/kk/Github/CPP_GTest/Example_1/square_root.cpp
+math.h
+-
+
