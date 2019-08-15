@@ -1,0 +1,3 @@
+/home/kk/Github/CPP_Concepts/Example_Projects/Vegetable_store/build/CMakeFiles/edit_cache.dir
+/home/kk/Github/CPP_Concepts/Example_Projects/Vegetable_store/build/CMakeFiles/bin/store.dir
+/home/kk/Github/CPP_Concepts/Example_Projects/Vegetable_store/build/CMakeFiles/rebuild_cache.dir
