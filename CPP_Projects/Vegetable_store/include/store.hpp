@@ -3,16 +3,13 @@
 
 class Store {
 
-void Store{
-	veggies veg_item;
-	fruits fruit_item;
-}
-
 private:
-	
 	string shop_name;
-	int item_category;
+	int num_of_category;
+	Veggies veg_item_;
+	Fruits fruit_item_;
 
 public:
+	Store();
 	void get_items();
-}
+};

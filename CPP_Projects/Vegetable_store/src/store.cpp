@@ -1,12 +1,15 @@
 #include <iostream>
-#include "shop.hpp"
+#include "store.hpp"
 
 using namespace std;
 
-int main(int argc, char** argv) {
+Store::Store(){
+	//Veggies veg_item;
+	//Fruits fruit_item;
+}
 
-	Store store1; 
-
-	cout << "Store " << endl;
-
+void Store::get_items(){
+	veg_item_.get_veggie_availability(100);
+	fruit_item_.get_fruit_availability(100);
+	cout << "Test passed ???" << endl;
 }

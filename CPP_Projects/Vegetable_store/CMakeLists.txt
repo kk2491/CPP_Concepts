@@ -1,12 +1,14 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(Vegetable_store)
+#cmake_minimum_required(VERSION 2.8.3)
+#project(vegetable_store)
+#set(TARGET_NAME vegetable_store)
+#file(GLOB SOURCES "src/*.cc")
+#add_executable(${TARGET_NAME} ${SOURCES})
+#target_include_directories(${TARGET_NAME} PRIVATE include)
 
-set(TARGET_NAME store)
 
-#find_package()
-
-include_directories(include/)
-
-add_executable(bin/store src/store.ccp)
-target_include_directories(bin/store include)
-add_dependencies(bin/store fruits.hpp veggies.hpp)
+cmake_minimum_required(VERSION 3.5)
+set(TARGET_NAME sample_prog)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(${TARGET_NAME} ${SOURCES})
+project(${TARGET_NAME})
+target_include_directories(${TARGET_NAME} PRIVATE include)

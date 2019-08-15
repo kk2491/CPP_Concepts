@@ -6,12 +6,13 @@ using namespace std;
 class Fruits {
 
 private:
-	string fruit_name;
-	int num_of_fruits;
-	bool fruit_available;
+	string fruit_name_;
+	int num_of_fruits_;
+	bool fruit_available_;
 
 public:
+	Fruits();
 	void set_fruit_name(string name);
-	int set_numberof_fruits(int num);
-	bool get_fruit_availability(int num);
-}
+	void set_numberof_fruits(int num);
+	void get_fruit_availability(int num);
+};

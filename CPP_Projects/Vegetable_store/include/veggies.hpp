@@ -3,17 +3,16 @@
 
 using namespace std;
 
-class Veggie {
-
-void Veggie {}
+class Veggies {
 
 private:
-	string veggie_name;
-	int num_of_veggies;
-	bool veggie_available;
+	string veggie_name_;
+	int num_of_veggies_;
+	bool veggie_available_;
 
 public:
-	void set_veggi_name(string name);
-	int set_numberof_veggies(int num);
-	bool get_veggie_availability(int num);
-}
+	Veggies();
+	void set_veggies_name(string name);
+	void set_numberof_veggies(int num);
+	void get_veggie_availability(int num);
+};
