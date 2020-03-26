@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/sample_prog.dir/src/main.cc.o CMakeFiles/sample_prog.dir/src/speak.cc.o  -o sample_prog 

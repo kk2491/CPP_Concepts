@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kk/Github/CPP_Concepts/Example_Projects/Sample_Program/src/main.cc
+iostream
+-
+speak.h
+/home/kk/Github/CPP_Concepts/Example_Projects/Sample_Program/src/speak.h
+
+/home/kk/Github/CPP_Concepts/Example_Projects/Sample_Program/src/speak.cc
+iostream
+-
+speak.h
+/home/kk/Github/CPP_Concepts/Example_Projects/Sample_Program/src/speak.h
+
+include/speak.h
+
